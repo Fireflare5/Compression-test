@@ -59,7 +59,7 @@ int main() {
     for(int i = 0; i <= unique_chars; ++i) {
         printf("%c %u\n",charList[i], intList[i]);
     }
-    //printf("\n%u\n",unique_chars + 1);
+    printf("\n%zu\n",size);
 
     free(charList);
     free(intList);

@@ -5,8 +5,10 @@
 
 void sort(int *__intPtr, char *__charPtr, size_t __size) {
     // Custom sorting algorithm
-    // First it counts the frequency of a number in a large array
-    // It then loops through the array repeating the number for each occurrence and adding it into the sorted array
+    // First it counts the frequency of a number in a large array.
+    // It then loops through the array
+    // repeating the number for each occurrence
+    // adding it into the sorted array.
 
     int lint = 0; //Largest int in array
     int shift = 0; // Offset from position lint in an array
